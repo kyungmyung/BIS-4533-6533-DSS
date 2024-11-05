@@ -9,7 +9,6 @@ data.columns
 # 0: Not Fraud 1: Fraud
 y = data['FraudIndicator']
 x = data[['AccountBalance','AnomalyScore','TransactionAmount']]
-
 accuracy_save = []
 
 for i in range(100):

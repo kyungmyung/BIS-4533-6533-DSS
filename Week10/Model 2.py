@@ -1,7 +1,6 @@
 import pandas as pd
 
 data = pd.read_csv(r'C:\Users\kyungmyung\Downloads\fraud_data.csv')
-
 # Explore the data Structure
 # Target Variable
 data.columns
